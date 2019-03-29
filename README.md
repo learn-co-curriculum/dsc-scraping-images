@@ -3,7 +3,7 @@
 
 ## Introduction
 
-You've definitely started to hone your skills at scraping now! With that, let's look at another data format your apt to want to pull from the web: images! In this lesson, you'll see how to save images from the web as well as display them in a pandas dataframe for easy perusal!
+You've definitely started to hone your skills at scraping now! With that, let's look at another data format you're apt to want to pull from the web: images! In this lesson, you'll see how to save images from the web as well as display them in a pandas DataFrame for easy perusal!
 
 ## Objectives
 

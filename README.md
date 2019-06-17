@@ -179,7 +179,7 @@ for n, img in enumerate(images):
     full_url = url_base + url_ext
     r = requests.get(full_url, stream=True)
     path = "images/book{}.jpg".format(n+1)
-    title = ex_img.attrs['alt']
+    title = img.attrs['alt']
     if r.status_code == 200:
         with open(path, 'wb') as f:
             r.raw.decode_content = True

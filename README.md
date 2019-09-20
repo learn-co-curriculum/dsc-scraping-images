@@ -78,7 +78,7 @@ ex_img.attrs['src']
 
 ## Saving Images
 
-Great! Now that you have a url (well, a url extension to be more precise) you can download the image locally!
+Great! Now that you have a URL (well, a URL extension to be more precise) you can download the image locally!
 
 
 ```python
@@ -314,4 +314,4 @@ HTML(df.to_html(escape=False))
 
 ## Summary
 
-Voila! You really are turning into a scraping champion! Now go get scraping!
+Voila! You really are turning into a scraping champion! Now, go get scraping!

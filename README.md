@@ -53,15 +53,8 @@ ex_img
 
 ```python
 #Use tab complete to preview what types of methods are available for the entry
-ex_img.
+# ex_img.
 ```
-
-
-
-
-    <img alt="A Light in the Attic" class="thumbnail" src="media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg"/>
-
-
 
 
 ```python
@@ -106,7 +99,12 @@ You can also run a simple bash command in a standalone cell to preview that the 
 ls images/
 ```
 
-    book-section.png  book1.jpg
+    book-section.png  book14.jpg        book2.jpg         book7.jpg
+    book1.jpg         book15.jpg        book20.jpg        book8.jpg
+    book10.jpg        book16.jpg        book3.jpg         book9.jpg
+    book11.jpg        book17.jpg        book4.jpg
+    book12.jpg        book18.jpg        book5.jpg
+    book13.jpg        book19.jpg        book6.jpg
 
 
 ## Previewing an Individual Image
@@ -214,97 +212,97 @@ HTML(df.to_html(escape=False))
     </tr>
     <tr>
       <th>1</th>
-      <td>A Light in the Attic</td>
+      <td>Tipping the Velvet</td>
       <td><img src="images/book2.jpg"/></td>
     </tr>
     <tr>
       <th>2</th>
-      <td>A Light in the Attic</td>
+      <td>Soumission</td>
       <td><img src="images/book3.jpg"/></td>
     </tr>
     <tr>
       <th>3</th>
-      <td>A Light in the Attic</td>
+      <td>Sharp Objects</td>
       <td><img src="images/book4.jpg"/></td>
     </tr>
     <tr>
       <th>4</th>
-      <td>A Light in the Attic</td>
+      <td>Sapiens: A Brief History of Humankind</td>
       <td><img src="images/book5.jpg"/></td>
     </tr>
     <tr>
       <th>5</th>
-      <td>A Light in the Attic</td>
+      <td>The Requiem Red</td>
       <td><img src="images/book6.jpg"/></td>
     </tr>
     <tr>
       <th>6</th>
-      <td>A Light in the Attic</td>
+      <td>The Dirty Little Secrets of Getting Your Dream Job</td>
       <td><img src="images/book7.jpg"/></td>
     </tr>
     <tr>
       <th>7</th>
-      <td>A Light in the Attic</td>
+      <td>The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull</td>
       <td><img src="images/book8.jpg"/></td>
     </tr>
     <tr>
       <th>8</th>
-      <td>A Light in the Attic</td>
+      <td>The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics</td>
       <td><img src="images/book9.jpg"/></td>
     </tr>
     <tr>
       <th>9</th>
-      <td>A Light in the Attic</td>
+      <td>The Black Maria</td>
       <td><img src="images/book10.jpg"/></td>
     </tr>
     <tr>
       <th>10</th>
-      <td>A Light in the Attic</td>
+      <td>Starving Hearts (Triangular Trade Trilogy, #1)</td>
       <td><img src="images/book11.jpg"/></td>
     </tr>
     <tr>
       <th>11</th>
-      <td>A Light in the Attic</td>
+      <td>Shakespeare's Sonnets</td>
       <td><img src="images/book12.jpg"/></td>
     </tr>
     <tr>
       <th>12</th>
-      <td>A Light in the Attic</td>
+      <td>Set Me Free</td>
       <td><img src="images/book13.jpg"/></td>
     </tr>
     <tr>
       <th>13</th>
-      <td>A Light in the Attic</td>
+      <td>Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)</td>
       <td><img src="images/book14.jpg"/></td>
     </tr>
     <tr>
       <th>14</th>
-      <td>A Light in the Attic</td>
+      <td>Rip it Up and Start Again</td>
       <td><img src="images/book15.jpg"/></td>
     </tr>
     <tr>
       <th>15</th>
-      <td>A Light in the Attic</td>
+      <td>Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991</td>
       <td><img src="images/book16.jpg"/></td>
     </tr>
     <tr>
       <th>16</th>
-      <td>A Light in the Attic</td>
+      <td>Olio</td>
       <td><img src="images/book17.jpg"/></td>
     </tr>
     <tr>
       <th>17</th>
-      <td>A Light in the Attic</td>
+      <td>Mesaerion: The Best Science Fiction Stories 1800-1849</td>
       <td><img src="images/book18.jpg"/></td>
     </tr>
     <tr>
       <th>18</th>
-      <td>A Light in the Attic</td>
+      <td>Libertarianism for Beginners</td>
       <td><img src="images/book19.jpg"/></td>
     </tr>
     <tr>
       <th>19</th>
-      <td>A Light in the Attic</td>
+      <td>It's Only the Himalayas</td>
       <td><img src="images/book20.jpg"/></td>
     </tr>
   </tbody>

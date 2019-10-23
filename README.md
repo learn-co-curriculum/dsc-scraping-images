@@ -3,14 +3,14 @@
 
 ## Introduction
 
-You've definitely started to hone your skills at scraping now! With that, let's look at another data format you're apt to want to pull from the web: images! In this lesson, you'll see how to save images from the web as well as display them in a pandas DataFrame for easy perusal!
+You've definitely started to hone your skills at scraping now! With that, let's look at another data format you're apt to want to pull from the web: images! In this lesson, you'll see how to save images from the web as well as display them in a Pandas DataFrame for easy perusal!
 
 ## Objectives
 
 You will be able to:
 
-* Save Images from the Web
-* Display Images in a Pandas DataFrame
+* Select specific elements from HTML using Beautiful Soup
+* Identify and scrape images from a web page
 
 ## Grabbing an HTML Page
 
@@ -26,8 +26,8 @@ import requests
 
 
 ```python
-html_page = requests.get('http://books.toscrape.com/') #Make a get request to retrieve the page
-soup = BeautifulSoup(html_page.content, 'html.parser') #Pass the page contents to beautiful soup for parsing
+html_page = requests.get('http://books.toscrape.com/') # Make a get request to retrieve the page
+soup = BeautifulSoup(html_page.content, 'html.parser') # Pass the page contents to beautiful soup for parsing
 warning = soup.find('div', class_="alert alert-warning")
 book_container = warning.nextSibling.nextSibling
 ```
@@ -39,7 +39,7 @@ First, simply retrieve a list of images by searching for `img` tags with beautif
 
 ```python
 images = book_container.findAll('img')
-ex_img = images[0] #Preview an entry
+ex_img = images[0] # Preview an entry
 ex_img
 ```
 
@@ -52,13 +52,13 @@ ex_img
 
 
 ```python
-#Use tab complete to preview what types of methods are available for the entry
+# Use tab complete to preview what types of methods are available for the entry
 # ex_img.
 ```
 
 
 ```python
-#While there's plenty of other methods to explore, simply select the url for the image for now.
+# While there's plenty of other methods to explore, simply select the url for the image for now.
 ex_img.attrs['src']
 ```
 
@@ -117,7 +117,7 @@ import matplotlib.image as mpimg
 
 
 ```python
-img=mpimg.imread('images/book1.jpg')
+img = mpimg.imread('images/book1.jpg')
 imgplot = plt.imshow(img)
 plt.show()
 ```
@@ -312,4 +312,4 @@ HTML(df.to_html(escape=False))
 
 ## Summary
 
-Voila! You really are turning into a scraping champion! Now, go get scraping!
+Voila! You now know how to use your knowledge of HTML and Beautiful Soup to scrape images. You really are turning into a scraping champion! Now, go get scraping!
